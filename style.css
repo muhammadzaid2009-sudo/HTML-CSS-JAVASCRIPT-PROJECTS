@@ -66,6 +66,7 @@ main hr {
     border-radius: 6px;
     font-size: 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 .rightsection img{
     width: 80%;
