@@ -52,9 +52,20 @@ main hr {
 }
 
 .leftsection {
-    font-size: 3rem;
-   
+    font-size: 3rem; 
     margin: 70px 0px;
+}
+.leftsection .buttons {
+    padding: 50px 0px;
+}
+.leftsection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
 }
 .rightsection img{
     width: 80%;
@@ -99,6 +110,7 @@ main hr {
     position: relative;
     top: 75px;
     width: 70px;
+    font-size: 14px;
     
 } 
 .verticle-desc {
@@ -107,4 +119,24 @@ main hr {
     color: gray;
     width: 150px;
     font-size: 9px;
+}
+footer {
+    background-color: #0e0e1a;
+    
+}
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul {
+    list-style: none;
+}
+.footer > div {
+    width: 223px;
+}
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0px;
 }
